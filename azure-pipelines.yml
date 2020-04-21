@@ -27,7 +27,7 @@ steps:
   - script: |
       pip install pytest
       pip install pytest-cov
-      pytest tests --doctest-modules --junitxml=junit/test-results.xml --cov=solarcalc --cov-report=xmls
+      pytest tests --doctest-modules --junitxml=junit/test-results.xml --cov=solarcalc --cov-report=xml
     displayName: 'Test with pytest'
 
   - task: PublishTestResults@2
