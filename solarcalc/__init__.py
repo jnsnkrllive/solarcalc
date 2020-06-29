@@ -3,6 +3,7 @@ Library of functions for calculating solar position information.
 """
 
 from .apparent_longitude import apparent_longitude
+from .declination import declination
 from .equation_of_center import equation_of_center
 from .mean_anomaly import mean_anomaly
 from .mean_longitude import mean_longitude
